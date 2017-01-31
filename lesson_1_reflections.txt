@@ -1,0 +1,35 @@
+## How did viewing a Diff between two versions of a file help you see the bug that was introduced?
+
+But showing each part of the document that had been added or removed.
+It was very helpful that it emphasized only the changed portions.
++ means an addition
+- means a subtraction
+
+## How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It will be easier to corect mistakes.
+It will make it possible to collaborate with other coders.
+It will keep my files safe.
+It will make it easier to reuse code and ideas.
+
+Manual Commits
+
+I think that i am the kind of person who needs to make more commits when I am working.
+My general attitude of forageing ahead isn't going to be the best with this coding thing... where it seems like accuracy is extra important.
+
+## What do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, thread each file separately?
+
+Some files are there own thing, self contained. Others are tightly interellated parts of a broader system – a website, a video game... its ideal for each saved version to function, and that means that each file has to be talking to each other. They have to stay in sync. The car is geared to the road.
+
+## How can you use the commands git log and git diff to view the history of files?
+
+Git Log will give me more of an overview - what was changed, how big was the change.
+Git Diff will show me specific differences between two files.
+
+## How might using version control make you more confident to make changes that could break something?
+
+Much more confident – would know that at least I wouldn't end the day worse off than when I started from a stupid mistake
+
+## Now that I have my workspace set up, what do I want to try and use git for?
+
+I want to use it as I work on customizing my secret blog, and remaking the dancebums website.
