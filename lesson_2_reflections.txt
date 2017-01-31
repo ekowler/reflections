@@ -15,3 +15,12 @@ The staging area is a separate space where you put things that you are going to 
 The value it offers is a way to save disk space when you are working with a particulary large code base. It seem like backing up everything, all the time method could really eat up space.
 
 You only need to commit the files that you actually changed.
+
+##3) How can you use the staging area to make sure you have one commit per logical change?
+
+You can 2x check how many changes you actually made, and then slow down and split them into smaller commits.
+
+##4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you are working on an experimental version, but are also fixing bugs in your current version. To A/B test different versions of a website or software. If you are making a major interface change.
+
