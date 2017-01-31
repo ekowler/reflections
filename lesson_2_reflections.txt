@@ -1,0 +1,17 @@
+#Lession 2 Reflections
+
+##1) What happens when you initialize a repository? Why do you need to do it?
+
+Initializing a repository creates a hidden folder inside whatever directory you are working with. The folder is creates represents the "Repository," in the literal sense that is. Like it were a vessel.
+
+Now, probably after a little bit more configuration we will be able to commit snapshots into this vessel. The program runs in the command line, but it saves the archive inside the folder where the repository lives.
+
+You need to do this in order to use git!
+
+##2)How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is a separate space where you put things that you are going to want to save updates on. With dropbox, there must be some kind of code that tracks the changes you make (in specificed directories) that automatically places changed files into a staging area before periodically (on a schedule, or progammatically when a certain threshold is met) adding them to the repository. This operation happens without the user interacting with the command line.
+
+The value it offers is a way to save disk space when you are working with a particulary large code base. It seem like backing up everything, all the time method could really eat up space.
+
+You only need to commit the files that you actually changed.
