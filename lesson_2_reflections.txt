@@ -38,6 +38,8 @@ They remind me of a subway system where the tracks only run one way, until they 
 
 The result of merging two branches together is that the commits from each branch are interleaved together. The new branch should have all the featues of the previous separate branches. We represent the diagram in the way that we do because we need to make sure that we aren't orphaning any commits unintentionally. We may also need to look through the geneaology of a commit in order to see what code is relevanat to the commit, if, for example, the previous chronological commit was merged from a different branch.
 
+## 7) What are the pros and cons of Git's automatic mergin vs. alwasys doing merges manually.
 
+Git may flag conflicts that are not really conflicts, but that is better than merging or deleting the wrong bit of code. It is a huge pro not to have to 2x every commit, especially if a merge is of a pretty large change, or a significant new feature.
 
 
