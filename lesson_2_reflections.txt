@@ -24,3 +24,16 @@ You can 2x check how many changes you actually made, and then slow down and spli
 
 If you are working on an experimental version, but are also fixing bugs in your current version. To A/B test different versions of a website or software. If you are making a major interface change.
 
+#A Common WorkFlow is to create a new branch for every new feature
+
+remote branch - created by someone else
+
+##5) Reflecting using visual diagrams
+
+How do diagrams help you visualize the branch structure.
+
+They remind me of a subway system where the tracks only run one way, until they terminate. Maybe a little like lymph. I like how it helps know what features to expect, maybe where you are in the overall progress of your files/project. It would be nice to know if there are programs that can create a visualized map of a repository, without having to use the command line to access it? There is, duh, amazing and god bless the programmers it is free!
+
+
+
+
