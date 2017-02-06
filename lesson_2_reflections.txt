@@ -34,6 +34,10 @@ How do diagrams help you visualize the branch structure.
 
 They remind me of a subway system where the tracks only run one way, until they terminate. Maybe a little like lymph. I like how it helps know what features to expect, maybe where you are in the overall progress of your files/project. It would be nice to know if there are programs that can create a visualized map of a repository, without having to use the command line to access it? There is, duh, amazing and god bless the programmers it is free!
 
+## 6) What is the result of merging two branches together? Why do we represent the diagram in the way that we do?
+
+The result of merging two branches together is that the commits from each branch are interleaved together. The new branch should have all the featues of the previous separate branches. We represent the diagram in the way that we do because we need to make sure that we aren't orphaning any commits unintentionally. We may also need to look through the geneaology of a commit in order to see what code is relevanat to the commit, if, for example, the previous chronological commit was merged from a different branch.
+
 
 
 
