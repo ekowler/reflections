@@ -14,3 +14,7 @@ You use a fork when you want to work on something someone else has started, and 
 A clone is how I would get a forked repository off of github and onto my local computer. I would use a clone if I were working with a team, and we were trying to maintain a central repository, but I need to work on the project – adding a feature or whatever.
 
 A branch is something that I would use on a clone. It's the smallest level where I would be making changes to individual lines of code, etcetera.
+
+##3) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It is useful for when it's time to sync up with the remote. If anyone else has been working with your files, you will want to know what changes you made, what changes they made, and then deal with any conflicts that emerge. To know what has changed since you last made a pull, you will need the record of the last known state of ther remote.
