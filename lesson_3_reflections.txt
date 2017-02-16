@@ -7,3 +7,10 @@ I can think of two reasons – the first is to have a backup, so if anything ha
 
 If someone else is working on the same branch as you, and they push their changes and the git automaticalled pulled them down to your computer, the work that you are doing might get overwritten.
 
+## 2) Describe the difference between forks, clones, and branches. When would you use one instead of another?
+
+You use a fork when you want to work on something someone else has started, and is open to sharing. So if someone had already made and app, and I wanted to add a feature to it, I would be able to fork it on git hub.
+
+A clone is how I would get a forked repository off of github and onto my local computer. I would use a clone if I were working with a team, and we were trying to maintain a central repository, but I need to work on the project – adding a feature or whatever.
+
+A branch is something that I would use on a clone. It's the smallest level where I would be making changes to individual lines of code, etcetera.
