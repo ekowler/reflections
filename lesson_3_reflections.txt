@@ -22,3 +22,7 @@ It is useful for when it's time to sync up with the remote. If anyone else has b
 ## 4) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 You could use dropbox, and use save as everytime you update a file and include the commits as changes to the file name. You could then sort all the different files by date created to see them in chronological order. I don't think that would really be easier though, because you would have so many different files to navigate through. Git really seems to be the best way to go... because it can show you the differences... I suppose something like google apps would be good, because then you would see all the changes in real time, but you can't roll back to specific points – only the points that the software defines as relevant.
+
+## 5? When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Making changes in a branch preserves the master and safe-gaurds against breaking the code.
